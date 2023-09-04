@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop - Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/coffee icon.png" alt="icon" width="30px" height="auto" />
+                <p>Coffee Shop</p>
+            </div>
+            <div id="burger">
+                <img src="../images/menu.png" alt="menu" style="transform:scaleX(-1)" class="burger-menu">
+                <input type="checkbox" class="burger-check" id="burger-check">
+            </div>
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li class="active">Product</li>
+                <li>Your Cart</li>
+                <li>History</li>
+            </ul>
+            <div class="nav-user">
+                <div>
+                    <img src="../images/search.png" alt="search" width="30px" height="auto">
+                </div>
+                <div>
+                    <img src="../images/chat.png" alt="chat" width="30px" height="auto">
+                </div>
+                <div class="user-pict">
+                    <img src="../images/user picture.png" alt="user">
+                </div>
+            </div>
+            
+        </nav>
+        <section class="mobile-nav" id="mobile-nav">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <hr>
+                <li><a href="/product/index.html">Product</a></li>
+                <hr>
+                <li><a href="#">Your Cart</a></li>
+                <hr>
+                <li>History</li>
+            </ul>
+
+            <ul class="user-option-mbl">
+                <li><a href="/login/index.html">Message</a></li>
+                <li class="sign-up-mbl"><a href="/profile/index.html">Profile</a></li>
+            </ul>
+        </section>
+    </header>
+    <section class="delete-modal" id="delete-modal">
+        <section class="modal-content">
+            <p>Are you sure want to delete the selected items?</p>
+            <div class="delete-btn-group">
+                <button type="button" id="cancel">Cancel</button>
+                <button type="button" id="delete-fix">Delete</button>
+            </div>
+
+        </section>
+    </section>
+    <main>
+        
+       <h1>Let’s see what you have bought!</h1>
+       <p>Select item to delete</p>
+       <div class="delete-btn">
+        <button type="button" id="select">Select All</button>
+        <button type="button" id="delete">Delete</button>
+       </div>
+       <section class="item-list">
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 1</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 2</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 3</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 4</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 5</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 6</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 7</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 8</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 9</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 10</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 11</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 12</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 13</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 14</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="../images/veggie tomato.webp" alt="menu" width="126px" height="auto" style="position: relative; bottom: 50px; right: 20px;">
+            </div>
+            <div class="card-text">
+                <h2>Veggie tomato mix</h2>
+                <p>IDR 34.000</p>
+                <p>Delivered 15</p>
+            </div>
+            <div class="check">
+                <input type="checkbox">
+                <div class="checkbox"></div>
+            </div>
+        </div>
+       </section>
+    </main>
+    <footer>
+        <section class="main-footer">
+            <div class="footer-desc">
+                <div class="logo" id="logo">
+                    <img src="../images/coffee icon.png" alt="icon" width="30px" />
+                    <p>Coffee Shop</p>
+                </div>
+                <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality
+                    beans</p>
+                <div class="icon">
+                    <img src="../images/face.png" alt="facebook" width="33px" height="auto">
+                    <img src="../images/twit.png" alt="twiter" width="33px" height="auto">
+                    <img src="../images/insta.png" alt="instagram" width="33px" height="auto">
+                </div>
+                <p class="copyright">&copy;2020CoffeeStore</p>
+            </div>
+            <div class="footer-link">
+                <div class="link-list">
+                    <h5>Product</h5>
+                    <p>Download</p>
+                    <p>Pricing</p>
+                    <p>Location</p>
+                    <p>Countries</p>
+                    <p>Blog</p>
+                </div>
+                <div class="link-list">
+                    <h5>Engage</h5>
+                    <p>Coffee Shop</p>
+                    <p>FAQ</p>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Term of Service</p>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./history.js"></script>
+</body>
+
+
+</html>

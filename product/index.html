@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop - Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/coffee icon.png" alt="icon" width="30px" />
+                <p>Coffee Shop</p>
+            </div>
+            <div id="burger">
+                <img src="../images/menu.png" alt="menu" style="transform:scaleX(-1)" class="burger-menu">
+                <input type="checkbox" class="burger-check" id="burger-check">
+            </div>
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li class="active">Product</li>
+                <li>Your Cart</li>
+                <li>History</li>
+            </ul>
+            <div class="nav-user">
+                <div>
+                    <img src="../images/search.png" alt="search" width="30px" height="auto">
+                </div>
+                <div>
+                    <img src="../images/chat.png" alt="chat" width="30px" height="auto">
+                </div>
+                <div class="user-pict">
+                    <img src="../images/user picture.png" alt="user">
+                </div>
+            </div>
+            
+        </nav>
+       
+        <section class="mobile-nav" id="mobile-nav">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <hr>
+                <li><a href="/product/index.html">Product</a></li>
+                <hr>
+                <li><a href="#">Your Cart</a></li>
+                <hr>
+                <li>History</li>
+            </ul>
+
+            <ul class="user-option-mbl">
+                <li><a href="/login/index.html">Message</a></li>
+                <li class="sign-up-mbl"><a href="/profile/index.html">Profile</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section class="promo">
+            <div>
+                <h2>Promo for you</h2>
+                <p>Coupons will be updated every weeks. Check them out!</p>
+                <div class="coupon">
+                    <div class="main-coupon">
+                        <div class="product-pict">
+                            <img src="../images/beef spaghetti.png" alt="beef spaghetti" width="248px" height="auto"
+                                style="position: relative;top: -200px;right: 50px;">
+                        </div>
+                        <h3>Beef Spaghetti<br>20% OFF</h3>
+                        <p>Buy 1 Choco Oreo and get 20% off for Beef Spaghetti</p>
+                    </div>
+                    <div class="coupon-code">
+                        <p class="first">COUPON CODE</p>
+                        <p class="second">FNPR15RG</p>
+                        <p class="third">Valid untill October 10th 2020</p>
+                    </div>
+                    <div class="black-coupon"></div>
+                    <div class="brown-coupon"></div>
+                </div>
+                <button>Apply Coupon</button>
+                <div class="terms">
+                    <p>Terms and Condition</p>
+                    <ol>
+                        <li>You can only apply 1 coupon per day</li>
+                        <li>It only for dine in</li>
+                        <li>Buy 1 get 1 only for new user</li>
+                        <li>Should make member card to apply coupon</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <nav>
+                <ul>
+                    <li class="active-product">Favorite Product</li>
+                    <li>Coffee</li>
+                    <li>Non Coffee</li>
+                    <li>Foods</li>
+                    <li>Add-on</li>
+                </ul>
+            </nav>
+            <div class="product-list">
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/veggie tomato.png" alt="veggie tomato" width="217px" height="auto"
+                            style="position: relative;top: -90px;right: 40px;">
+                    </div>
+                    <div class="price">
+                        <h2>Veggie Tomato Mix</h2>
+                        <p>IDR 34.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/hazelnut latte.png" alt="hazelnut latte" width="168px" height="auto"
+                            style="position: relative;top: -35px;right: 25px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Hazelnut Latte</h2>
+                        <p>IDR 25.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/summer fried rice.png" alt="fried rice" width="216px" height="auto"
+                            style="position: relative;top: -50px;right: 45px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Summer Fried Rice</h2>
+                        <p>IDR 32.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/creamy ice latte.png" alt="ice latte" width="168px" height="auto"
+                            style="position: relative;top: -90px;right: 30px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Creamy Ice Latte</h2>
+                        <p>IDR 27.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/drum sticks.png" alt="drum sticks" width="200px" height="auto"
+                            style="position: relative;right: 20px;">
+                    </div>
+                    <div class="price">
+                        <h2>Drum Sticks</h2>
+                        <p>IDR 30.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/salty rice.png" alt="salty rice" width="217px" height="auto"
+                            style="position: relative;right: 45px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Salty Rice</h2>
+                        <p>IDR 20.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/summer fried rice.png" alt="fried rice" width="216px" height="auto"
+                            style="position: relative;top: -50px;right: 45px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Summer Fried Rice</h2>
+                        <p>IDR 32.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/creamy ice latte.png" alt="ice latte" width="168px" height="auto"
+                            style="position: relative;top: -90px;right: 30px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Creamy Ice Latte</h2>
+                        <p>IDR 27.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/veggie tomato.png" alt="veggie tomato" width="217px" height="auto"
+                            style="position: relative;top: -90px;right: 40px;">
+                    </div>
+                    <div class="price">
+                        <h2>Veggie Tomato Mix</h2>
+                        <p>IDR 34.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/hazelnut latte.png" alt="hazelnut latte" width="168px" height="auto"
+                            style="position: relative;top: -35px;right: 25px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Hazelnut Latte</h2>
+                        <p>IDR 25.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/summer fried rice.png" alt="fried rice" width="216px" height="auto"
+                            style="position: relative;top: -50px;right: 45px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Summer Fried Rice</h2>
+                        <p>IDR 32.000</p>
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-pict up">
+                        <img src="../images/creamy ice latte.png" alt="ice latte" width="168px" height="auto"
+                            style="position: relative;top: -90px;right: 30px;">
+                    </div>
+                    <div class="price">
+
+                        <h2>Creamy Ice Latte</h2>
+                        <p>IDR 27.000</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <section class="main-footer">
+            <div class="footer-desc">
+                <div class="logo">
+                    <img src="../images/coffee icon.png" alt="icon" width="30px" />
+                    <p>Coffee Shop</p>
+                </div>
+                <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality
+                    beans</p>
+                <div class="icon">
+                    <img src="../images/face.png" alt="facebook" width="33px" height="auto">
+                    <img src="../images/twit.png" alt="twiter" width="33px" height="auto">
+                    <img src="../images/insta.png" alt="instagram" width="33px" height="auto">
+                </div>
+                <p class="copyright">&copy;2020CoffeeStore</p>
+            </div>
+            <div class="footer-link">
+                <div class="link-list">
+                    <h5>Product</h5>
+                    <p>Download</p>
+                    <p>Pricing</p>
+                    <p>Location</p>
+                    <p>Countries</p>
+                    <p>Blog</p>
+                </div>
+                <div class="link-list">
+                    <h5>Engage</h5>
+                    <p>Coffee Shop</p>
+                    <p>FAQ</p>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Term of Service</p>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="/product/product.js"></script>
+</body>
+
+</html>

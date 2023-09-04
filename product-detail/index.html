@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/coffee icon.png" alt="icon" width="30px" height="auto" />
+                <p>Coffee Shop</p>
+            </div>
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li class="active">Product</li>
+                <li>Your Cart</li>
+                <li>History</li>
+            </ul>
+            <div class="nav-user">
+                <div>
+                    <img src="../images/search.png" alt="search" width="30px" height="auto">
+                </div>
+                <div>
+                    <img src="../images/chat.png" alt="chat" width="30px" height="auto">
+                </div>
+                <div class="user-pict">
+                    <img src="../images/user picture.png" alt="user">
+                </div>
+            </div>
+            <img src="../images/menu.png" alt="menu" style="transform:scaleX(-1)" class="burger-menu">
+        </nav>
+    </header>
+    <main>
+        <p>Favorite & Promo <b>> Cold Brew</b></p>
+        <section class="product-view">
+            <div class="top">
+                <div class="product">
+                    <div class="product-pict"><img src="../images/cold brew.png" alt="product pict" width="550px"
+                            height="auto" style="top:-300px;right: 60px;"></div>
+                    <P class="title">COLD BREW</P>
+                    <p class="price">IDR 30.000</p>
+                </div>
+                <div class="product-desc">
+                    <p>Delivery only on <b>Monday to friday</b> at <b>1 - 7 pm</b></p>
+                    <p>Cold brewing is a method of brewing that combines ground coffee and cool water and uses time
+                        instead of heat to extract the flavor. It is brewed in small batches and steeped for as long as
+                        48 hours.</p>
+                    <div class="size">
+                        <p>Choose a size</p>
+                        <div class="size-order">
+                            <label class="input-size">
+                                <input type="radio" name="size">
+                                <p>R</p>
+                            </label>
+                            <label class="input-size">
+                                <input type="radio" name="size">
+                                <p>L</p>
+                            </label>
+                            <label class="input-size">
+                                <input type="radio" name="size">
+                                <p>XL</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="btn-group">
+                    <button class="add-cart">Add to Cart</button>
+                    <button class="ask">Ask to Staff</button>
+                </div>
+                <div class="deliv-method">
+                    <p>Choose Delivery Methods</p>
+                    <div class="deliv-btn-group">
+                        <label class="deliv-btn">
+                            <input type="radio" name="delivery">
+                            <p class="checkmark">Dine in</p>
+                        </label>
+                        <label class="deliv-btn">
+                            <input type="radio" name="delivery">
+                            <p class="checkmark">Door Delivery</p>
+                        </label>
+                        <label class="deliv-btn">
+                            <input type="radio" name="delivery">
+                            <p class="checkmark">Pick Up</p>
+                        </label>
+                    </div>
+                    <div class="set-time">
+                        <p>Set time :</p>
+                        <input type="text" placeholder="Enter the time you’ll arrived">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="checkout">
+            <div class="card">
+                <div class="card-display">
+                    <div class="display-img">
+                        <img src="../images/cold brew.png" alt="menu" width="150px" height="auto"
+                            style="top: -80px;right: -25px;">
+                    </div>
+                    <div class="order-list">
+                        <p class="title">Cold Brew</p>
+                        <p class="list">x1 (large)</p>
+                        <p class="list">x1 (reguler)</p>
+                    </div>
+                </div>
+                <div class="total-order">
+                    <button class="minus">-</button>
+                    <p class="total">2</p>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+            <button>CHECKOUT</button>
+        </section>
+    </main>
+    <footer>
+        <section class="main-footer">
+            <div class="footer-desc">
+                <div class="logo">
+                    <img src="../images/coffee icon.png" alt="icon" width="30px" />
+                    <p>Coffee Shop</p>
+                </div>
+                <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality
+                    beans</p>
+                <div class="icon">
+                    <img src="../images/face.png" alt="facebook" width="33px" height="auto">
+                    <img src="../images/twit.png" alt="twiter" width="33px" height="auto">
+                    <img src="../images/insta.png" alt="instagram" width="33px" height="auto">
+                </div>
+                <p class="copyright">&copy;2020CoffeeStore</p>
+            </div>
+            <div class="footer-link">
+                <div class="link-list">
+                    <h5>Product</h5>
+                    <p>Download</p>
+                    <p>Pricing</p>
+                    <p>Location</p>
+                    <p>Countries</p>
+                    <p>Blog</p>
+                </div>
+                <div class="link-list">
+                    <h5>Engage</h5>
+                    <p>Coffee Shop</p>
+                    <p>FAQ</p>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Term of Service</p>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
